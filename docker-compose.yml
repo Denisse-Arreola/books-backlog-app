@@ -1,12 +1,15 @@
 services:
-  angular:
+  books-backlog:
     build:
       context: .
       dockerfile: Dockerfile
+
     ports:
       - '4200:4200'
+
     volumes:
       - .:/app
       - /app/node_modules
+
     stdin_open: true
     tty: true
