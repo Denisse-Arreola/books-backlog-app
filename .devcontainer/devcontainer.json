@@ -1,0 +1,8 @@
+{
+  "name": "Books Backlog",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "books-backlog",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [4200]
+}
